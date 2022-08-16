@@ -1,0 +1,35 @@
+
+.chat_footerInput{
+    flex:1;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-right: 10px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+}
+
+.chat_footerInput>textarea{
+    border: none;
+    width: 100%;
+    background-color:rgb(243, 243, 243) ;
+    margin-left: 20px;
+    resize:none
+}
+
+.chat_footerInput > textarea:active{
+    border: none;
+    
+}
+
+.chat_footerInput > button.MuiIconButton-root{
+    width: 40px;
+}
+
+.chat_footerButton>button{
+    border: none;
+    padding: 15px;
+    background-color: #8a3ee2;
+    border-radius: 10px;
+    color: white;
+}

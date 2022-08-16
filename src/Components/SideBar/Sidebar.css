@@ -1,0 +1,53 @@
+.sidebar{
+    flex: 0.05;
+    display:flex;
+    justify-content: center;
+}
+
+.sidebar_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;  
+   
+}
+
+.sidebar_avatar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.sidebar_items > button.MuiIconButton-root{
+    width: 40px;
+}
+
+@media screen and (max-width:414px) {
+    .sidebar{
+        display:flex;
+        flex-direction: row;
+        border-bottom: 1px solid lightgray;
+    }
+    
+    .sidebar_items{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100vh;  
+        height: 8vh
+       
+    }
+    
+    .sidebar_avatar{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 0px;
+      margin-left: 10px;
+    }
+    
+    .sidebar_items > button.MuiIconButton-root{
+        width: 40px;
+    }  
+}

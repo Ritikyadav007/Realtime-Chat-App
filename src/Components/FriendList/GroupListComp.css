@@ -1,0 +1,93 @@
+.friendlist{
+    flex: .25
+}
+
+.friendlist_Items{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(243, 243, 243);
+  
+}
+
+.friendlist_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.friendlist_header > span{
+    font-size:25px;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.friendlist_header > button.MuiIconButton-root{
+    width: 40px;
+    margin-right: 30px;
+}
+
+.friendlist_search{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.search_container > input {
+    border: none;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.search_container > .MuiSvgIcon-root{
+    color: gray
+}
+
+.search_container > ::placeholder {
+    font-size: large;
+  }
+
+.friendlist_friends{
+    flex: 1;
+    overflow: scroll;
+}
+
+.friendlist_creategroup {
+    padding: 10px;
+}
+
+.friendlist_creategroup > button{
+    padding: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.friendlist_creategroup > button>span{
+    padding-left: 10px;
+    padding-bottom: 6px;
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:414px) {   
+    .friendlist_Items{
+        display: flex;
+        flex-direction: column;
+        height: 92vh;
+        background-color: rgb(243, 243, 243);
+      
+    }  
+}

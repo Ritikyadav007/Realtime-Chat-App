@@ -1,0 +1,16 @@
+.modal_items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_form{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.ant-modal-close >span {
+ float: right;
+}

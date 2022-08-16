@@ -1,0 +1,24 @@
+.friend{
+    display:flex;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 15px;
+}
+
+.friend:hover{
+    background-color: rgb(233, 224, 224);
+}
+
+.friend_info > h2{
+    font-size: 19px;
+    margin-left: 20px;
+    margin-bottom: 0px;
+}
+
+.friend_info > p{
+    margin-left:20px;
+    font-size: 12px;
+    margin-bottom: 0px;
+}
